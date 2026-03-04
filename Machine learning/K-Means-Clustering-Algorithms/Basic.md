@@ -32,14 +32,24 @@ This project demonstrates the implementation of the K-Means Clustering Algorithm
 
 ⚙️ Installation & Setup
 -
-* Install required dependencies:
-
-* pip install numpy pandas matplotlib scikit-learn
-
-* Open the Jupyter Notebook:
-
-* jupyter notebook
-
+1. Clone the repository:
+```
+git clone https://github.com/Mukeshburdak/Data-Science-.git
+cd Data-Science-/Machine\ learning/K-Means-Clustering-Algorithms
+```
+2. If you want to directly open the notebook after cloning:
+```
+cd Data-Science-
+jupyter notebook "Machine learning/K-Means-Clustering-Algorithms/Basic.ipynb"
+```
+3. Install required dependencies:
+```
+pip install numpy pandas matplotlib scikit-learn
+```
+4. Open the Jupyter Notebook:
+```
+jupyter notebook
+```
 📈 Elbow Method
 -
 * The Elbow Method is used to determine the optimal number of clusters (K).
